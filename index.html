@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>age-calculator-app</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+
+  <div class="main">
+
+ <div class="n1">
+  <div class="dy three">
+    <label For="day">day</label>
+    <input type="number" id="day" placeholder="DD" min="1" max="31"/>
+ </div>
+
+ <div class="mnth three">
+    <label htmlFor="month">month</label>
+    <input type="number" id="month" placeholder="MM" min="1" max="12"/>
+</div>
+
+<div class="yr three">
+    <label For="year">year</label>
+    <input type="number" id="year" placeholder="YYYY" />
+</div>
+</div>
+
+
+<div class="n2">
+<div class="line"></div>
+
+<button onclick="calculateAge()" class="rec" id="sub">
+    <img src="./Vector 4.svg"/>
+    <img src="./Vector 6.svg" class="isari"/>
+    <img src="./Vector 5.svg"/>
+   </button>
+   </div>
+
+   <div class="result">
+
+    <p class="pp">
+      <span class="numbers1 numbers">--</span> years
+    </p>
+    <p class="pp">
+      <span class="numbers2 numbers">--</span>months
+    </p>
+    <p class="pp">
+      <span class="numbers3 numbers">--</span>days
+   </p>
+
+
+
+
+</div>
+
+
+ </div>
+
+
+
+    </body>
